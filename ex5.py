@@ -21,5 +21,9 @@ centimeters = 2.54
 kilograms = 0.4535924
 height_to_cm = round(height * centimeters)
 weight_to_kg = round(weight * kilograms)
-print(f"{name}'s height in centimeters is {height_to_cm} rounded.")
-print(f"{name}'s weight in kilograms is {weight_to_kg} rounded.")
+#print(f"{name}'s height is {height_to_cm} centimeters (rounded).")
+#print(f"{name}'s weight is {weight_to_kg} kilograms (rounded).")
+
+# This also works:
+print(f"{name}'s height is {round(height * centimeters)} centimeters (rounded).")
+print(f"{name}'s weight is {round(weight * kilograms)} kilograms (rounded).")
